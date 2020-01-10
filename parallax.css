@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+}
+.parallax-container{
+    overflow: hidden;
+}
+.parallax-wrap {
+    margin: 0;
+
+    height: 100vh;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.parallax-wrapper, .parallax-wrapper2  {
+    width: 100vw;
+    height:100vh;
+    box-sizing: border-box;
+    transform-style: preserve-3d;
+}
+.parallax-wrapper::before, .parallax-wrapper2::before {
+    content:"";
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left:0;
+    background-image: url("https://sixandahalf.s3.ap-northeast-2.amazonaws.com/landingpage/justin/whitejeans.jpg");
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    transform:translateZ(-1px) scale(2);
+    overflow: hidden;
+}
+.parallax-wrapper2::before {
+    background-image: url("https://sixandahalf.s3.ap-northeast-2.amazonaws.com/landingpage/top+sellers/blackpanther.png");
+}
+.content {
+    margin: 0 auto;
+    padding: 50px;
+    width: 20%;
+    float: right;
+    color: #fff;
+    padding-top: 50vh;
+}
+.content3 {
+    padding-left: 10%;
+    float: left;
+    padding-top: 50vh;
+    color: #000;
+}
+.topseller-header{
+    color: #fff;
+    padding-top: 87px;
+    margin: 0 auto;
+}
+.middle-wrapper {
+    width: 100vw;
+    height:100vh;
+    background: #000;
+    z-index: 2;
+    position: relative;
+    text-align: center;
+}
+.topseller1, .topseller2, .topseller3 {
+    display: inline-block;
+    width: 30%;
+    height: 438px;
+    margin: 87px 1%;
+    background-size: cover;
+    background-position: center;
+}
+.topseller1:hover, .topseller2:hover, .topseller3:hover {
+    border-radius: 30px;
+    -webkit-transition: border-radius .5s; /* For Safari 3.1 to 6.0 */
+    -moz-transition: border-radius .5s;
+    -o-transition: border-radius .5s;
+    -ms-transition: border-radius .5s;
+    transition: border-radius .5s;
+}
+.topseller1 {
+    background-image: url("https://sixandahalf.s3.ap-northeast-2.amazonaws.com/landingpage/top+sellers/1.png");
+}
+.topseller2 {
+    background-image: url("https://sixandahalf.s3.ap-northeast-2.amazonaws.com/landingpage/top+sellers/2.png");
+}
+.topseller3 {
+    background-image: url("https://sixandahalf.s3.ap-northeast-2.amazonaws.com/landingpage/top+sellers/3.png");
+}

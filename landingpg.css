@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Euphoria+Script|Lato:100|League+Script|Miss+Fajardose|Nanum+Pen+Script|Tangerine&display=swap');
+
+body {
+	font-size: 11px;
+	font-family: 'Roboto',Arial,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+	letter-spacing: 1.2px;
+    color: #555;
+    margin: 0;
+}
+.wrap {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+
+
+.reviewcard-container {
+	width: 100%;
+	min-height: 300px;
+	display: block;
+	text-align: center;
+}
+.reviewcard {
+	border: 1px solid #ddd;
+	margin: 15px;
+	text-align: left;
+	box-sizing: border-box;
+	width: 80%;
+	display: block;
+	text-decoration: none !important;
+	min-height: 400px;
+	color: #000;
+	margin: 20px auto;
+}
+.reviewcard-img {
+	position: relative;
+    width: 100%;
+    height: 260px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.reviewcard-area {
+	padding: 0px 10px;
+}
+.reviewcard-title {
+	font-size: 16px;
+	width: 80%;
+	display: inline-block;
+}
+.reviewcard-btn {
+	width: 15%;
+	display: inline-block;
+	text-align: center;
+	border: 1px solid #ccc;
+    padding: 3px 0;
+}
+.reviewcard-detail {
+	display: table;
+}
+.reviewcard-name {
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+	color: #fff;
+	font-size: 13px;
+	text-shadow: 1px 1px #555;
+}
+.reviewcard-date {
+	position: absolute;
+	bottom: 0;
+	right: 15px;
+	color: #fff;
+	font-size: 13px;
+	text-shadow: 1px 1px #555;
+}
+.morebtn {
+	text-align: center;
+}
+.reviewcard-more {
+	margin: 20px;
+	padding: 5px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

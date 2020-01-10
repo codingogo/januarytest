@@ -1,0 +1,71 @@
+body {
+	margin: 0;
+}
+.editorpicks {
+	margin: 50px 0;
+}
+.editor-wrapper{
+	background-image: url("https://sixandahalf.s3.ap-northeast-2.amazonaws.com/landingpage/justin/whitejeans.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    min-height: 450px;
+}
+.content {
+	padding: 30% 15%;
+	color: #999;
+	text-decoration: none;
+}
+.editor-links {
+	text-decoration: none;
+}
+.middle-wrapper {
+	min-height: 900px;
+    width: 100%;
+    height:100%;
+    background: #000;
+    position: relative;
+    text-align: center;
+    padding-bottom: 140px;
+}
+.topseller-header {
+	color: #fff;
+    z-index: 999;
+    margin: 0;
+    padding: 80px 0 20px 0;
+    font-size: 12px;
+    font-weight: 300;
+}
+.topseller1, .topseller2, .topseller3 {
+    display: inline-block;
+    width: 90%;
+    height: 350px;
+    margin-top: 50px;
+    background-size: cover;
+    background-position: center;
+}
+.topseller1:hover, .topseller2:hover, .topseller3:hover {
+    border-radius: 30px;
+    -webkit-transition: border-radius .5s; /* For Safari 3.1 to 6.0 */
+    -moz-transition: border-radius .5s;
+    -o-transition: border-radius .5s;
+    -ms-transition: border-radius .5s;
+    transition: border-radius .5s;
+}
+.topseller1 {
+    background-image: url("https://sixandahalf.s3.ap-northeast-2.amazonaws.com/landingpage/top+sellers/1.png");
+}
+.topseller2 {
+    background-image: url("https://sixandahalf.s3.ap-northeast-2.amazonaws.com/landingpage/top+sellers/2.png");
+}
+.topseller3 {
+    background-image: url("https://sixandahalf.s3.ap-northeast-2.amazonaws.com/landingpage/top+sellers/3.png");
+}
+.editor-wrapper2 {
+	background-image: url("http://sixandahalf.co.kr/web/upload/NNEditor/20191104/wine_shop1_163441.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    min-height: 450px;	
+}
+
